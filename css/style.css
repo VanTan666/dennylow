@@ -1,0 +1,74 @@
+body {
+    background: #000;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin: 0px 90px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(207, 181, 181);
+    text-decoration: underline;
+    transition: all .4s linear;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    color: white;
+}
+
+.h1 {
+    margin: 3px 0px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(238,95,248);
+    font-weight: 800;
+}
+
+.h2 {
+    margin: 3px 0px;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(176, 124, 232);
+    font-weight: 700;
+}
+
+.pink {
+    color: rgb(255, 255, 255);
+}
+
+.jr {
+    color: rgb(255, 255, 255);
+}
+.center {
+    text-align: center;
+}
+
+#intro {
+    height: 100%;
+}
+
+@media screen and (min-width: 622px) {
+    .jr {
+      content: "6ㅤ01ㅤ23";
+    }
+    #intro {
+        height: 100%;
+    }
+    .container {
+        text-align: center;
+    }
+  }
